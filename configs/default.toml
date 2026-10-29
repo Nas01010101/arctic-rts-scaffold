@@ -1,0 +1,11 @@
+# Loop-wiring values for the smoke test. Not tuned for any dataset.
+data_root = "data"        # overridden by $RTS_DATA
+out_dir = "runs"          # overridden by $RTS_OUT
+in_channels = 4
+n_folds = 3
+seed = 0
+epochs = 2
+batch_size = 4
+lr = 1e-3
+threshold = 0.5
+device = "cpu"
